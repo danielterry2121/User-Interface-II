@@ -1,0 +1,139 @@
+	@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+*{
+	max-width:100%;
+}
+body {
+  font-family: 'Muli', sans-serif;
+  }
+body{
+	background: linear-gradient(to bottom right ,#32527b,#556c90, #7787a5,#98a4bb,#bac1d1,#dce0e8,#ffffff);
+}
+
+header {
+	max-width:99.9%;
+	background:linear-gradient(rgba(255,255,255,0), lightgrey, darkgrey, grey);
+	display:flex;
+	flex-direction:row;
+	justify-content:left;
+	flex-wrap:wrap;
+	padding:20px;
+}
+h1 {
+	width:40%;
+}
+.nav:hover {
+	color:white;
+}
+.nav{
+	width:300px;
+	color:black;
+	background-color:transparent !important;
+	box-shadow:0px 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+	background-image:linear-gradient(grey,darkgrey);
+	padding:10px;
+	margin:10px;
+	text-decoration:none;
+	text-align:center
+}
+nav ul{
+	display:flex;
+	flex-direction:row;
+	justify-content:left;
+	flex-wrap:wrap;
+	list-style:none;
+}
+nav a{
+text-decoration:none;
+}
+img{
+	max-width:100%;
+	height:auto;
+}
+.myPicture{
+	width:100%;
+}
+.intro{
+	
+	background:linear-gradient(rgba(255,255,255,0), lightgrey, darkgrey, grey);
+	width:100%;
+}
+.why{
+	background:linear-gradient(rgba(255,255,255,0), lightgrey, darkgrey, grey);
+width:100%;
+	}
+.skills{
+background:linear-gradient(rgba(255,255,255,0), lightgrey, darkgrey, grey);
+width:80%;
+}
+.container2{
+width:100%;
+}
+.container2{
+width:100%;
+}
+.container1{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	flex-direction:row;
+	align-items:center;
+	margin:50px;
+}
+.workHistory{
+	background:linear-gradient(rgba(255,255,255,0), lightgrey, darkgrey, grey);
+}
+table  { overflow-y: auto; height: 100px; }
+thead th { position: sticky; top: 0; }
+
+table  { border-collapse: collapse; width: 100%; 
+			max-width:100%;	
+				}
+th, td { padding: 8px 16px; }
+th     { background:#eee; }
+h2{
+	box-shadow:0px 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+	background-image:linear-gradient(grey,darkgrey);
+	padding:10px;
+	margin:10px;
+	overflow:hidden;
+}
+.workHistory{
+	width:100%;
+	max-width:100%;
+}
+@media(min-width:900px){
+.container1{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	flex-direction:row;
+	align-items:center;
+	margin:50px;
+} 
+.myPicture{
+	width:40%;
+}
+.intro{
+	
+	background:linear-gradient(rgba(255,255,255,0), lightgrey, darkgrey, grey);
+	width:40%;
+}
+.why{
+	background:linear-gradient(rgba(255,255,255,0), lightgrey, darkgrey, grey);
+width:40%;
+	}
+.skills{
+background:linear-gradient(rgba(255,255,255,0), lightgrey, darkgrey, grey);
+width:40%;
+
+}
+.container2{
+width:100%;
+}
+
+.workHistory{
+	width:100%;
+	max-width:100%;
+}
+
